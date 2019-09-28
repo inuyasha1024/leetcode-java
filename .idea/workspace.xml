@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47b223b6-8b18-4c75-9f9b-b07d38f19feb" name="Default Changelist" comment="" />
+    <list default="true" id="47b223b6-8b18-4c75-9f9b-b07d38f19feb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/question162/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/question64/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/question162/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -47,15 +59,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/en/[1]Two Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,6 +129,9 @@
       <replace>DirectedGraphNode</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -179,14 +185,16 @@
         <option value="$PROJECT_DIR$/src/question120/solution.java" />
         <option value="$PROJECT_DIR$/src/question120/Solution.java" />
         <option value="$PROJECT_DIR$/src/question64/Solution.java" />
+        <option value="$PROJECT_DIR$/src/question162/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="820" />
+    <option name="width" value="1024" />
+    <option name="height" value="705" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -208,12 +216,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -350,16 +359,20 @@
       <workItem from="1566491880557" duration="2852000" />
       <workItem from="1566599754702" duration="1359000" />
       <workItem from="1566767869892" duration="85000" />
+      <workItem from="1567355707778" duration="431000" />
+      <workItem from="1567634760624" duration="3532000" />
+      <workItem from="1567723813075" duration="118000" />
+      <workItem from="1567724132377" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106331000" />
+    <option name="totallyTimeSpent" value="110421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21101573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31688127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +389,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14819278" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.35060242" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -388,7 +401,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info active="true" anchor="right" id="leetcode" order="9" side_tool="true" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="leetcode" order="9" side_tool="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,13 +606,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/recursion/UniqueSubSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/question6.java" />
     <entry file="file://$PROJECT_DIR$/src/recursion/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -922,22 +928,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/cn/[185]部门工资前三高的所有员工.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/cn/[185]部门工资前三高的所有员工.java" />
+    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/cn/[1]两数之和.java" />
+    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/en/[2]Add Two Numbers.java" />
+    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/en/[1]Two Sum.java" />
     <entry file="file://$PROJECT_DIR$/src/question64/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/cn/[1]两数之和.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/question695/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/question456/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -977,20 +984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/en/[2]Add Two Numbers.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/question695/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/question162/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/jx/mw2n08bn3d1f48w71bkdz5gr7plh_m/T/leetcode-plugin/en/[1]Two Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
