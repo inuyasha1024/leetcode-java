@@ -3,8 +3,31 @@ package jiuzhang.class1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Coding {
+
+  public List<List<Integer>> permutation2(int[] nums) {
+    List<List<Integer>> res = new ArrayList<>();
+    List<Integer> numsList = Arrays.stream(nums).boxed().collect(Collectors.toList());
+    permutation2Help(res, new ArrayList(), numsList);
+    return res;
+  }
+
+  public void permutation2Help(List<List<Integer>> res, List<Integer> list, List<Integer> nums) {
+    if (nums.size() == 0){
+      res.add(new ArrayList<>(list));
+      return;
+    }
+
+    for (int i = 0; i < nums.size(); i++) {
+      list.add(nums.get(i));
+      List<Integer> temp = new ArrayList<>(nums);
+      temp.remove(i);
+      permutation2Help(res, list, temp);
+      list.remove(list.size() - 1);
+    }
+  }
 
   public List<List<Integer>> permutation(int[] nums) {
     List<List<Integer>> res = new ArrayList<>();
@@ -110,6 +133,6 @@ public class Coding {
 
 //    System.out.println(Arrays.toString(new Coding().subsets2(new int[] {2,1,2}).toArray()));
 
-    System.out.println(Arrays.toString(new Coding().permutation(new int[] {1,2,3}).toArray()));
+    System.out.println(Arrays.toString(new Coding().permutation2(new int[] {1,2,3}).toArray()));
   }
 }
